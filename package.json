@@ -1,0 +1,25 @@
+{
+  "name": "maintree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint -c .eslintrc.json ./**/*.js",
+    "test": "npx jest --config jest.config.json",
+    "watch": "npx jest --config jest.config.json --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopHatEcho/MainTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TopHatEcho/MainTree/issues"
+  },
+  "homepage": "https://github.com/TopHatEcho/MainTree#readme",
+  "dependencies": {
+    "eslint": "^5.7.0",
+    "jest": "^23.6.0"
+  }
+}
